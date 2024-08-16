@@ -2,15 +2,3 @@ getgenv().Key = "MARU-6UV6U-2GP6Z-RI8S-P5CCH-JG0L1"
 getgenv().id = "446029696212271162"
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
-
-wait(2)
-
-
-repeat task.wait() until game:IsLoaded() 
-getgenv().Hermanos_Settings = {
-	['key'] = '8b389fd2-5dea-4288-9da5-ff9dc4dd8452',
-	['PC'] = 'DDC-1',
-	['mode'] = 'Website', --- Duo, Description, Website
-}
-task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/ad-main.lua'))() end)
-	
