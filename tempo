@@ -3,7 +3,7 @@ getgenv().id = "446029696212271162"
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
 
-wait(SECONDS)
+wait(2)
 
 
 repeat task.wait() until game:IsLoaded() 
